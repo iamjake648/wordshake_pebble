@@ -1,0 +1,46 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "iamjake648",
+    "longName": "wordShake",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/4715F00C-42C2-11E1-A263-140DF7D8CD61.png",
+                "menuIcon": true,
+                "name": "IMAGES_4715F00C_42C2_11E1_A263_140DF7D8CD61_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "shortName": "wordShake",
+    "uuid": "0b694bcd-733c-4939-8159-14fe3a56bb68",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
