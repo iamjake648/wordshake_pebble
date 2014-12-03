@@ -9,6 +9,7 @@ var UI = require('ui');
 //Set New Globabl Var of the Default Lang
 Pebble.lang = "de"; 
 //New "Card" or Menu for the Language Picker
+//TODO: Add More Langs
 var menu = new UI.Menu({
     sections: [{
       items: [{
@@ -46,16 +47,18 @@ menu.on('select', function(e) {
     Pebble.lang = "de";
   } else if (e.itemIndex === 1){
      Pebble.lang = "fr";
-  }  else if (e.itemIndex === 1){
+  }  else if (e.itemIndex === 2){
      Pebble.lang = "es";
-  } else if (e.itemIndex === 2){
-     Pebble.lang = "zh";
   } else if (e.itemIndex === 3){
-     Pebble.lang = "ru";
+     Pebble.lang = "zh-CN";
   } else if (e.itemIndex === 4){
-     Pebble.lang = "ja";
+     Pebble.lang = "ar";
   } else if (e.itemIndex === 5){
-     Pebble.lang = "pt";
+     Pebble.lang = "ru";
+  } else if (e.itemIndex === 6){
+     Pebble.lang = "ja";
+  } else if (e.itemIndex === 7){
+     Pebble.lang = "put";
   }
 });
 
